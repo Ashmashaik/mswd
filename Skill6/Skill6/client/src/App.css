@@ -1,0 +1,146 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 20vmin;
+  pointer-events: none;
+}
+
+.App-klu {
+  height: 50px;
+  width: 150px;
+  pointer-events: none;
+  margin-left: 80px;
+  border-radius: 30px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+}
+
+.App-kl{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+}
+
+/* .App-header {
+  background-color: #282c34;
+  min-height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} */
+
+.App-Header{
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.App-para{
+  font-size: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+}
+
+.App-color{
+  background-color: white;
+  /* background-color: #15b1ff; */
+  border-radius: 30px;
+  border :7px solid rgb(116, 116, 197);
+  padding: 10px;
+}
+
+.App-para1{
+  display: flex;
+  align-items: center;
+  margin-left: 60px;
+  color: blue;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.App-para2{
+  display: flex;
+  align-items: center;
+  color: green;
+  margin-left: 70px;
+  font-weight: bold;
+}
+
+.App-para3{
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  color: green;
+  font-weight: bold;
+}
+
+.App-para4{
+  display: flex;
+  align-items: center;
+  margin-left: 130px;
+  color: red;
+  font-weight: bold;
+}
+
+.App-body {
+  background-color:white;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(21, 1, 1);
+}
+
+.App-idcard {
+  /* border:1px solid red; */
+  background-color: white;
+  padding: 20px;
+  height: 420px;
+  width: 350px;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(21, 1, 1);
+  /* box-shadow: 10px 10px 5px rgb(60, 206, 255) inset; */
+  box-shadow: 0 4px 8px 0 rgb(146, 252, 16), 0 6px 20px 0 rgb(16, 186, 233);
+  border-radius: 30px;
+  border :7px solid rgb(70, 255, 53);
+}
+
+.App-inputval{
+  width:200px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.App-plus{
+  height: 50px;
+  width: 50px;
+}
+.App-zero{
+  height: 50px;
+  width: 50px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
